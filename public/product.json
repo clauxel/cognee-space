@@ -1,0 +1,41 @@
+{
+  "slug": "cognee-space",
+  "brand": "Cognee Space",
+  "domain": "cognee.space",
+  "canonicalOrigin": "https://cognee.space",
+  "relationship": "independent_unofficial_reference",
+  "upstream": {
+    "repo": "https://github.com/topoteretes/cognee",
+    "docs": "https://docs.cognee.ai/",
+    "site": "https://www.cognee.ai",
+    "license": "Apache-2.0",
+    "package": "cognee",
+    "version": "1.2.1"
+  },
+  "pricing": {
+    "defaultBilling": "annual",
+    "plans": {
+      "starter": {
+        "monthly": 9,
+        "annualMonthlyEquivalent": 4.5,
+        "annualDueToday": 54
+      },
+      "pro": {
+        "monthly": 29,
+        "annualMonthlyEquivalent": 14.5,
+        "annualDueToday": 174
+      },
+      "enterprise": {
+        "monthly": 59,
+        "annualMonthlyEquivalent": 29.5,
+        "annualDueToday": 354
+      }
+    },
+    "note": "Payments are one-time and do not automatically renew."
+  },
+  "paths": {
+    "pricingPath": "https://cognee.space/pricing/",
+    "checkoutPath": "https://cognee.space/checkout/",
+    "accessPath": "https://cognee.space/api/access"
+  }
+}

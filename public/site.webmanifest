@@ -1,0 +1,15 @@
+{
+  "name": "Cognee Space",
+  "short_name": "Cognee Space",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7fafb",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ]
+}

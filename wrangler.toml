@@ -1,0 +1,26 @@
+name = "cognee-space"
+main = "worker/index.js"
+compatibility_date = "2026-06-25"
+workers_dev = true
+routes = [
+  { pattern = "cognee.space/*", zone_name = "cognee.space" },
+  { pattern = "www.cognee.space/*", zone_name = "cognee.space" }
+]
+
+[vars]
+APP_ORIGIN = "https://cognee.space"
+CANONICAL_HOST = "cognee.space"
+SITE_MODE = "independent_reference"
+
+[[d1_databases]]
+binding = "ANALYTICS_DB"
+database_name = "cognee-space-analytics"
+database_id = "fbd3d7b9-c4e8-486e-add4-16cc7700f4ec"
+
+[assets]
+directory = "./public"
+binding = "SITE_ASSETS"
+not_found_handling = "none"
+run_worker_first = [
+  "/*"
+]

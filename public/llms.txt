@@ -1,0 +1,23 @@
+# Cognee Space
+
+Cognee Space is an independent, unofficial deployment planner for teams evaluating Cognee AI memory, knowledge graph RAG, MCP memory servers, and self-hosted agent context.
+
+Canonical site: https://cognee.space/
+Pricing path: https://cognee.space/pricing/
+Planner access: paid access required after Polar checkout verification.
+Facts JSON: https://cognee.space/.well-known/cognee-space.json
+
+Core pages:
+- https://cognee.space/ai-memory/ explains persistent AI memory planning.
+- https://cognee.space/knowledge-graph-rag/ explains knowledge graph RAG rollout planning.
+- https://cognee.space/agent-memory/ explains agent workflow memory boundaries.
+- https://cognee.space/mcp-memory-server/ explains MCP memory server planning.
+- https://cognee.space/self-host-cognee/ explains self-hosted deployment checks.
+
+Relationship:
+This site is independent and unofficial. Official upstream references are kept as final source notes in the public documentation repository and source notes page, not as conversion paths.
+
+Official Sources:
+- https://github.com/topoteretes/cognee
+- https://docs.cognee.ai/
+- https://www.cognee.ai
