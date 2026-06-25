@@ -15,7 +15,7 @@ SITE_MODE = "independent_reference"
 [[d1_databases]]
 binding = "ANALYTICS_DB"
 database_name = "cognee-space-analytics"
-database_id = "fbd3d7b9-c4e8-486e-add4-16cc7700f4ec"
+database_id = "43ba68cd-a7b2-401a-a462-d27219c524d3"
 
 [assets]
 directory = "./public"
