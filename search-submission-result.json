@@ -1,9 +1,29 @@
 {
+  "generatedAt": "2026-06-25T14:25:00.000Z",
   "domain": "cognee.space",
   "siteUrl": "https://cognee.space/",
   "sitemapUrl": "https://cognee.space/sitemap.xml",
-  "status": "pending_production_submission",
-  "gsc": null,
-  "bing": null,
-  "indexNow": null
+  "status": "blocked_dnssec_validation_failure",
+  "dnsEvidence": {
+    "cloudflareZoneStatus": "pending",
+    "cloudflareDnssecStatus": "disabled",
+    "expectedNameservers": [
+      "archer.ns.cloudflare.com",
+      "sydney.ns.cloudflare.com"
+    ],
+    "externalDoHWithChecking": "Status 2 DNSSEC validation failure",
+    "externalDoHWithCheckingDisabled": "NS records resolve to Cloudflare; comment reports DNSKEY missing no SEP matching DS"
+  },
+  "gsc": {
+    "status": "not_submitted",
+    "reason": "canonical sitemap is not resolvable under validating DNS; no old GSC result reused"
+  },
+  "bing": {
+    "status": "not_submitted",
+    "reason": "canonical sitemap is not resolvable under validating DNS; no old Bing result reused"
+  },
+  "indexNow": {
+    "status": "not_submitted",
+    "reason": "canonical URL list is not live on apex domain; no old IndexNow result reused"
+  }
 }
