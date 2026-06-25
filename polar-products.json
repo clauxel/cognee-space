@@ -3,6 +3,13 @@
   "site": "cognee-space",
   "domain": "cognee.space",
   "origin": "https://cognee.space",
-  "status": "pending_creation",
-  "products": []
+  "status": "configured_in_cloudflare_secrets",
+  "products": [
+    { "plan": "starter", "billing": "monthly", "amountUsd": "9.00", "checkoutUrlStoredAs": "POLAR_CHECKOUT_URL_STARTER_MONTHLY" },
+    { "plan": "starter", "billing": "annual", "amountUsd": "54.00", "checkoutUrlStoredAs": "POLAR_CHECKOUT_URL_STARTER_ANNUAL" },
+    { "plan": "pro", "billing": "monthly", "amountUsd": "29.00", "checkoutUrlStoredAs": "POLAR_CHECKOUT_URL_PRO_MONTHLY" },
+    { "plan": "pro", "billing": "annual", "amountUsd": "174.00", "checkoutUrlStoredAs": "POLAR_CHECKOUT_URL_PRO_ANNUAL" },
+    { "plan": "enterprise", "billing": "monthly", "amountUsd": "59.00", "checkoutUrlStoredAs": "POLAR_CHECKOUT_URL_ENTERPRISE_MONTHLY" },
+    { "plan": "enterprise", "billing": "annual", "amountUsd": "354.00", "checkoutUrlStoredAs": "POLAR_CHECKOUT_URL_ENTERPRISE_ANNUAL" }
+  ]
 }
